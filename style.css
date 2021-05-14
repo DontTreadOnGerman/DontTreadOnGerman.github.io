@@ -7,5 +7,5 @@ dt {font-size:20px;font-weight:bold}
 .topnav a {float:left;color:#f2f2f2;text-align:center;padding:14px 16px;text-decoration:none;font-size:16px}
 .topnav a:hover {background-color:#262626;color:white}
 .topnav a.active {background-color:black;color:white}
-table, th, td {border:1px solid white;background-color:#444;align:center;text-align:center;margin:0px auto}
+table, th, td {border:1px solid white;background-color:#333;align:center;text-align:center;margin:0px auto}
 table.center {margin-left:auto;margin-right:auto;align:center;text-align:center}
