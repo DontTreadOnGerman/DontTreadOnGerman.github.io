@@ -2,9 +2,10 @@ html {text-align:center;color:white;background-color:#404040}
 h1 {font-size:22px}
 p {font-size:22px}
 li {font-size:16px}
-dt {font-weight:700,font-size:18px}
+li span {position:relative;left:-10px}
+dt {font-size:18px;font-weight:bold}
 dd {font-size:16px}
-.topnav {background-color: #333; overflow: hidden}
+.topnav {background-color:#333;overflow:hidden}
 .topnav a {float:left;color:#f2f2f2;text-align:center;padding:14px 16px;text-decoration:none;font-size:16px}
 .topnav a:hover {background-color:#262626;color:white;}
 .topnav a.active {background-color:black;color:white;}
