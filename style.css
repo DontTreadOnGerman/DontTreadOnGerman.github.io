@@ -1,8 +1,7 @@
-html {text-align:center;color:white;background-color:#404040}
+html {text-align:center;float:center;color:white;background-color:#404040}
 h1 {font-size:22px}
 p {font-size:22px}
 li {font-size:16px}
-li span {position:relative;left:-10px}
 dt {font-size:18px;font-weight:bold}
 dd {font-size:16px}
 .topnav {background-color:#333;overflow:hidden}
