@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<title>DontTreadOnGerman.github.io</title>
+</head>
+
+<div class="topnav">
+<a href="index">Home Page</a>
+<a class="active" href="coding">Coding Projects</a>
+<a href="media">Social Media</a>
+<a href="crypto">Crypto Addresses</a>
+</div> 
+<a href="https://github.com/you"><img loading="lazy" width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+<body>
+
+<h1>DTOG's Coding Projects</h1>
+<p>A(nother) table made up of my coding projects;</p>
+
+</body>
+</html>
