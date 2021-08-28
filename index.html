@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!-- Credit: https://gist.github.com/Armster15/db063ab0dc5be699ae07a067a7333752 for Twemoji stuff -->
 
 <head>
     <link rel="stylesheet" href="style.css" />
@@ -48,7 +49,21 @@
             animation: octocat-wave 560ms ease-in-out
         }
     }
+    
+    img.emoji {
+        width: 1em;
+        pointer-events: none;
+    }
 </style>
+<script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+<script>
+    window.onload = function() {
+        twemoji.parse(document.body, {
+            folder: 'svg',
+            ext: '.svg'
+        });
+    }
+</script>
 
 <body>
 
@@ -58,7 +73,7 @@
     <ul>
         <li>My favorite energy drink is Coffee</li>
         <li>I am a Progressive</li>
-        <li>I am Pansexual <img src="Flag.png" alt="Trulli" width="32" height="16"></li>
+        <li>I am gay 🏳️‍🌈</li>
         <li>This is my third website. The rest were aborted after 2 weeks</li>
     </ul>
 
