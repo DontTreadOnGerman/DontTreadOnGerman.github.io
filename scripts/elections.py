@@ -1,7 +1,6 @@
 # Download map.png too
 
 import random
-import io
 from PIL import Image, ImageDraw
 
 states = [{"name": "Alabama", "status": "Republican", "electors": 9, "location": (650, 398)},
@@ -85,7 +84,7 @@ def electiongenerator(mode):
     republican_states = []
     democrat_states = []
     landslide_victor = random.randint(1, 2)
-    map = Image.open("scripts/Map.png").convert('RGB')
+    map = Image.open(f"Map.png").convert('RGB')
     democrat_color = (16, 48, 114)
     democrat_flip_color = (37, 93, 130)
     republican_color = (132, 17, 20)
